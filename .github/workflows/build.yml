@@ -24,7 +24,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build reorderable module only
-        run: ./gradlew :reorderable:build
+        run: ./gradlew :reorderable:jvmJar
 
       - name: Upload library
         uses: actions/upload-artifact@v4
