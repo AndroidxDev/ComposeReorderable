@@ -26,9 +26,8 @@ jobs:
       - name: Build reorderable module only
         run: ./gradlew :reorderable:jvmJar
 
-      - name: Upload library
+      - name: Upload full build folder
         uses: actions/upload-artifact@v4
         with:
-          name: reorderable-library
-          path: |
-            reorderable/build/
+          name: reorderable-build
+          path: reorderable/build/
