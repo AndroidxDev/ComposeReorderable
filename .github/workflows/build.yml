@@ -31,5 +31,4 @@ jobs:
         with:
           name: reorderable-library
           path: |
-            reorderable/build/libs/
-            reorderable/build/publications/
+            reorderable/build/
